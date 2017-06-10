@@ -1,0 +1,231 @@
+/* Ogólne style*/
+
+body {
+  font-family: open sans, arial, sans-serif;
+  margin: 0;
+}
+
+.row {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  margin: 0;
+  clear: both;
+}
+
+/*Header */
+
+.first {
+  height: 50px;
+  background: black;
+}
+
+header img {
+  float: left;
+  margin-top: 13px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.menu li{
+  display: inline;
+  padding-left: 20px;
+}
+
+.dropdown li{
+  display: block;
+  padding: 0;
+
+}
+
+.dropdown {
+  display: none;
+}
+
+.menu-item:hover .dropdown {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  background: black;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
+/*Kodzenie slidera*/
+
+.second {
+  height: 350px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+52,cccccc+100 */
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 52%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 52%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 52%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+.slider {
+  width: 45%;
+  float: left;
+}
+
+
+
+.text {
+  box-sizing: border-box;
+  padding: 40px;
+  margin-top: 20px;
+  padding-right: 40px;
+}
+
+.text h1 {
+  text-align: center;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+.text span {
+  color: #23b99f;
+  font-weight: 700;
+}
+
+.text p {
+  clear: both;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+.text a {
+  box-sizing: border-box;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  background: #23b99f;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.arrow {
+  width: 5%;
+  float: left;
+  margin-top: 130px;
+  font-size: 60px;
+  font-weight: 100;
+  color:  #23b99f;
+}
+
+/* Kodzenie drugiej sekcji*/
+
+.third {
+  margin-top: 50px;
+  background: white;
+}
+
+.box {
+  width: 30%;
+  float: left;
+  margin: 1.666%;
+  height: 220px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.box h2 {
+  display: block;
+}
+
+.one {
+  background-image: url(../img/box1_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.two {
+  background-image: url(../img/box2_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.three {
+  padding: 10px;
+}
+
+.three h2 {
+  margin-top: 5px;
+}
+
+.box h2 {
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.white {
+  padding-left: 10px;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-top: 50%;
+}
+
+.pasek {
+  width: 60%;
+  height: 5px;
+  background: #23b99f;
+  margin-top: -25px;
+}
+
+.box p {
+  font-size: 12px;
+}
+
+/* Kodzenie cennika*/
+
+.fourth {
+  margin-top: 50px;
+  background: lightgrey;
+}
+
+.pricing {
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
